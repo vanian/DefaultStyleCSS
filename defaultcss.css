@@ -26,9 +26,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
+	margin:auto;
 }
+
 ol, ul, dd, dl, a {
 	list-style: none;
 }
@@ -38,6 +41,30 @@ iframe:hover, video:hover, table:hover{
     background: #fcfcfc;
     box-shadow: 0 3px 6px rgba(0,0,0,0.2);
     cursor: pointer;
+}
+
+/*custom class to enlarge on hover*/
+.grow { transition: all .5s ease-in-out; }
+.grow:hover { transform: scale(1.1); } 
+
+.left-side-border:hover {
+	padding: 0.1%;
+	 border-left: 5px solid rgb(60,0,120);
+}
+
+.right-side-border:hover {
+	padding: 0.1%;
+	 border-right: 5px solid rgb(60,0,120);
+}
+
+.top-side-border:hover {
+	padding: 0.1%;
+	 border-top: 5px solid rgb(60,0,120);
+}
+
+.bottom-side-border:hover {
+	padding: 0.1%;
+	 border-bottom: 5px solid rgb(60,0,120);
 }
 
 table {
