@@ -1,6 +1,6 @@
 # DefaultCSS
 Default CSS styling framework
-Instead of defining the same styling/positioning/effects, I have created a framework for resuse. 
+Instead of defining the same styling/positioning/effects for every new project, I have created a framework for resuse. 
 Added additional classes that I use frequently
 
 Framework for small projects, where developers need not spend time in wrting what might be the most ovbious. 
