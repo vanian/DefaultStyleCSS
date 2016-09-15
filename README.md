@@ -1,4 +1,4 @@
-# DefaultCSS
+# DefaultStyleCSS
 Default CSS styling framework
 Instead of defining the same styling/positioning/effects for every new project, I have created a framework for resuse. 
 Added additional classes that I use frequently
